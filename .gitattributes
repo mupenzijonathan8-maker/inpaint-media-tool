@@ -1,0 +1,12 @@
+# Exclude build artifacts
+# Text file normalization
+# See https://github.com/github/linguist
+examples/site/**/*.html linguist-vendored
+examples/site/*.html linguist-vendored
+
+*.ts linguist-detectable
+build/* linguist-vendored
+*.yaml linguist-detectable=false
+go.sum linguist-generated
+
+*.ico binary
